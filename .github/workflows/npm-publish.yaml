@@ -25,7 +25,7 @@ jobs:
       - name: Authenticate with Registry
         run: |
           yarn logout
-          echo "@apollo-elements:registry=http://registry.npmjs.org/" > .npmrc
+          echo "@test-repo:registry=http://registry.npmjs.org/" > .npmrc
           echo "registry=http://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> .npmrc
           npm whoami
