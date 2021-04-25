@@ -1,0 +1,43 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "Test mono repo",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --stream",
+    "clean": "lerna run clean --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpalepin/test-repo.git"
+  },
+  "packageScope": "@test-repo",
+  "keywords": [
+    "web",
+    "colors",
+    "rgba",
+    "hsal",
+    "lsba",
+    "hex",
+    "hexA",
+    "validation",
+    "rgba-validation-css4",
+    "rgba-validation"
+  ],
+  "author": "Simon-Pierre Alepin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonpalepin/web-colors/issues"
+  },
+  "homepage": "https://github.com/simonpalepin/web-colors#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "lerna": "^4.0.0",
+    "typescript": "^4.2.4"
+  }
+}
