@@ -1,6 +1,6 @@
 {
   "name": "@simonpalepin/component-two",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-two#readme",
