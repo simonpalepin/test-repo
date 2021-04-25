@@ -4,6 +4,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "publish": {
+    "access": "public",
     "conventionalCommits": true,
     "message": "chore(release): publish",
     "registry": "registry.npmjs.org",

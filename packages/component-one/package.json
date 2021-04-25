@@ -1,9 +1,12 @@
 {
   "name": "@simonpalepin/component-one",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-one#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonpalepin/test-repo.git",
