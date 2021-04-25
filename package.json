@@ -32,9 +32,9 @@
   "author": "Simon-Pierre Alepin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/simonpalepin/web-colors/issues"
+    "url": "https://github.com/simonpalepin/test-repo/issues"
   },
-  "homepage": "https://github.com/simonpalepin/web-colors#readme",
+  "homepage": "https://github.com/simonpalepin/test-repo#readme",
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "lerna": "^4.0.0",
