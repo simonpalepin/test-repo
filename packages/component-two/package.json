@@ -1,6 +1,6 @@
 {
   "name": "@simonpalepin/component-two",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-two#readme",
@@ -10,7 +10,9 @@
     "directory": "packages/component-two"
   },
   "references": [
-    { "path": "../component-one" }
+    {
+      "path": "../component-one"
+    }
   ],
   "dependencies": {
     "@test-repo/component-one": "~1.0"
