@@ -1,6 +1,6 @@
 {
   "name": "@simonpalepin/component-one",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-one#readme",
@@ -14,5 +14,5 @@
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput"
   },
-  "gitHead": "54b34f1f04d504bee8fd9660643ea1374ae4045c"
+  "gitHead": "f53f6ece02fbfabc58e4854395d557f1d94d1a0c"
 }
