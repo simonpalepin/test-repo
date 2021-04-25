@@ -1,0 +1,23 @@
+{
+  "name": "@simonpalepin/component-two",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-two#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpalepin/test-repo.git",
+    "directory": "packages/component-two"
+  },
+  "references": [
+    { "path": "../component-one" }
+  ],
+  "dependencies": {
+    "@test-repo/component-one": "~1.0"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
+    "watch": "tsc -b -w --preserveWatchOutput"
+  }
+}
