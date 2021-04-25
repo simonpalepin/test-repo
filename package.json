@@ -10,8 +10,8 @@
   "scripts": {
     "build": "lerna run build --stream",
     "clean": "lerna run clean --parallel",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "lerna publish --yes"
+    "test": "echo 'test'",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
