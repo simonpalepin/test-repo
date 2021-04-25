@@ -1,6 +1,6 @@
 {
   "name": "@simonpalepin/component-two",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-two#readme",
@@ -21,6 +21,5 @@
     "build": "tsc -b",
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput"
-  },
-  "gitHead": "93015aff503a5f8c158c1a3fa4c1a87e19ef4ff3"
+  }
 }
