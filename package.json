@@ -1,5 +1,5 @@
 {
-  "name": "test-repo",
+  "name": "@simonpalepin/test-repo",
   "version": "1.0.0",
   "description": "Test mono repo",
   "main": "index.js",
@@ -11,13 +11,12 @@
     "build": "lerna run build --stream",
     "clean": "lerna run clean --parallel",
     "test": "echo 'test'",
-    "publish": "lerna publish"
+    "deploy": "lerna publish --yes"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonpalepin/test-repo.git"
   },
-  "packageScope": "@test-repo",
   "keywords": [
     "web",
     "colors",

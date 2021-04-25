@@ -1,17 +1,18 @@
 {
   "name": "@simonpalepin/component-one",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "homepage": "https://github.com/simonpalepin/test-repo/tree/main/packages/component-one#readme",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpalepin/test-repo.git",
+    "directory": "packages/component-one"
   },
   "scripts": {
     "build": "tsc -b",
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput"
   },
-  "gitHead": "afeec3aae2ab8699470edbd0f13d544374913d7e"
+  "gitHead": "ed40129c148f47c2dedad73ef81694892337eb43"
 }
