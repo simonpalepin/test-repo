@@ -1,1 +1,1 @@
-export { ComponentOne } from './componentOne';
+export { ComponentOne } from './src/componentOne';

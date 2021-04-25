@@ -161,9 +161,21 @@
         "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
         "affectsGlobalScope": true
       },
-      "../src/componenttwo.ts": {
+      "../../component-one/src/componentone.ts": {
         "version": "64b326b56c23bc1e326af99b1d721e9b6da2d6c1e56e5f68312e40db4ba5855c",
-        "signature": "be17b4ad325a4a3faebe35150d253c61d7686e9f91c711d899a1d1903aaba4cb",
+        "affectsGlobalScope": false
+      },
+      "../../component-one/public_api.ts": {
+        "version": "98f97944025e5472356839ad74bfc2bc1fe4e665f94e40f70c4ca6007f80cf61",
+        "affectsGlobalScope": false
+      },
+      "../../component-one/index.ts": {
+        "version": "8ca9024ba9b6e7aa6a852a80e80ce73b34ac426009d2af32f1932a997fc1727f",
+        "affectsGlobalScope": false
+      },
+      "../src/componenttwo.ts": {
+        "version": "1e711813c99bbf4d7274961f749f54dd591e56fc60bc780a92554429b9e67025",
+        "signature": "55131cf5001aadcb4c88e1ddc8b848dae23c3bed6e84d005e2f9cb7068ed2422",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
@@ -755,6 +767,15 @@
       ],
       "../../../node_modules/pretty-format/build/index.d.ts": [
         "../../../node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../component-one/index.ts": [
+        "../../component-one/public_api.ts"
+      ],
+      "../../component-one/public_api.ts": [
+        "../../component-one/src/componentone.ts"
+      ],
+      "../src/componenttwo.ts": [
+        "../../component-one/index.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1113,6 +1134,9 @@
       "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../../../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../component-one/index.ts",
+      "../../component-one/public_api.ts",
+      "../../component-one/src/componentone.ts",
       "../src/componenttwo.ts"
     ]
   },

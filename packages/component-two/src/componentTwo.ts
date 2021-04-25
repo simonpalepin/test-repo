@@ -1,5 +1,7 @@
-export class ComponentOne {
+import { ComponentOne } from '@test-repo/component-one';
+export class ComponentTwo {
   constructor(name: string = '') {
-    console.log(`ComponentOne . ${name}`);
+    new ComponentOne('form two');
+    console.log(`ComponentTwo . ${name}`);
   }
 }

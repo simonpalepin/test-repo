@@ -162,13 +162,8 @@
         "affectsGlobalScope": true
       },
       "../src/componentone.ts": {
-        "version": "6ac754b57a15f6e2f75eb2babbc8eea8c993c0c0f8b08a4b422c4e926fecf56e",
+        "version": "64b326b56c23bc1e326af99b1d721e9b6da2d6c1e56e5f68312e40db4ba5855c",
         "signature": "e31f9a3403f26d345fbda10eced5ba6bc7aa9100f9dcdd40e4bc8499b88380f1",
-        "affectsGlobalScope": false
-      },
-      "../src/public_api.ts": {
-        "version": "945c23f03f515bf96a240d1b88b5b2339b9777f1919e68c257b1e97255b21b82",
-        "signature": "19415adbf92e98b1b937e918eacbb4e8c9807d2de08f27eb5dbeb66fd845aceb",
         "affectsGlobalScope": false
       },
       "../../../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
@@ -760,9 +755,6 @@
       ],
       "../../../node_modules/pretty-format/build/index.d.ts": [
         "../../../node_modules/pretty-format/build/types.d.ts"
-      ],
-      "../src/public_api.ts": [
-        "../src/componentone.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1023,9 +1015,6 @@
       ],
       "../../../node_modules/pretty-format/build/index.d.ts": [
         "../../../node_modules/pretty-format/build/types.d.ts"
-      ],
-      "../src/public_api.ts": [
-        "../src/componentone.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1124,8 +1113,7 @@
       "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../../../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../src/componentone.ts",
-      "../src/public_api.ts"
+      "../src/componentone.ts"
     ]
   },
   "version": "4.2.4"

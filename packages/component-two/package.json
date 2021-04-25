@@ -21,5 +21,6 @@
     "build": "tsc -b",
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput"
-  }
+  },
+  "gitHead": "bf1e85841a54ddaf7ff19c3ab5648df30442cd1b"
 }
